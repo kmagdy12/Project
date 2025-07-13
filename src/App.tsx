@@ -24,7 +24,7 @@ import {
   Filter,
   Search
 } from 'lucide-react';
-import VenturesSidebar from './VenturesSidebar';
+import VenturesSidebar from './components/ventures/VenturesSidebar';
 
 interface MyVenturesProps {
   onBack: () => void;

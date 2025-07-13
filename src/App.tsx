@@ -131,12 +131,6 @@ const MyVentures: React.FC<MyVenturesProps> = ({ onBack, onCreateNewVenture }) =
     },
     {
       id: 5,
-          >
-            <Plus className="w-4 h-4" />
-            <span>Create New Venture</span>
-          </button>
-        </div>
-
       logo: '🌱',
       growthRate: '+60%',
       currentValue: '$1M',
